@@ -4,11 +4,25 @@ body{
 	line-height: 1.5em;
 	max-width: 2000px;
 	margin: 0 auto;
+	-webkit-display: flex;
+	-moz-webkit-display: flex;
+	-ms-webkit-display: flex;
+	-o-webkit-display: flex;
+	webkit-display: flex;
 	display: flex;
-	flex-direction:column;
-	align-items:center;
+	-webkit-flex-direction: column;
+	-moz-flex-direction: column;
+	-ms-flex-direction: column;
+	-o-flex-direction: column;
+	flex-direction: column;
+	-ms-align-items: center;
+	align-items: center;
 }
 
+h1{
+	line-height: .5em;
+	padding-top: 10px;                                                                                                                                                                                                                                                                                                     
+}
 h1,
 .list,
 h2 {
@@ -16,6 +30,11 @@ h2 {
 	font-family: garamond, serif;
 	font-size: 28px;
 	font-weight: 700;
+	
+}
+
+.list,
+h2 {
 	line-height:1.2em;
 }
 
@@ -36,7 +55,7 @@ h3
 
 h3{
 	font-size:1.5em;
-	font-family: futura, sans-serif;
+	font-family: futura,'Poppins', sans-serif;
 	line-height: 1.2em;
 }
 
@@ -51,7 +70,7 @@ h5{
 }
 
 .linebreak2{
-	border: .5px solid #000;
+	border: .5px solid #fff;
 	margin-top: 1em;
 }
 
@@ -59,9 +78,17 @@ h5{
 ------------------------------------------------------------------------*/
 
 header{
+	-webkit-display: flex;
+	-moz-display: flex;
+	-ms-display: flex;
+	-o-display: flex;
 	display: flex;
-	justify-content:space-between;
-	background:rgba(255,255,255,0.65);
+	-webkit-justify-content: space-between;
+	-moz-justify-content: space-between;
+	-ms-justify-content: space-between;
+	-o-justify-content: space-between;
+	justify-content: space-between;
+	background:rgba(255,255,255,0.8);
 	width:97%;
 	padding-left: 5px;
 	position:fixed;
@@ -74,7 +101,6 @@ header{
 	width: 91%;
 	margin-top: 80px;
 	margin-left: -6px;
-	z-index: 1;
 }
 
 /*contact details
@@ -102,7 +128,7 @@ header{
 }
 
 .linebreak1{
-	border: .5px solid #000;
+	border: .5px solid #fff;
 	margin-top: 6em;
 }
 
@@ -158,8 +184,17 @@ footer{
 ------------------------------------------------------------------------*/
 
 .first{
+	-webkit-display: flex;
+	-moz-display: flex;
+	-ms-display: flex;
+	-o-display: flex;
 	display: flex;
-	align-items:center;
+	-ms-align-items: center;
+	align-items: center;
+	-webkit-flex-direction:column;
+	-moz-flex-direction:column;
+	-ms-flex-direction:column;
+	-o-flex-direction:column;
 	flex-direction:column;
 }
 
@@ -209,7 +244,11 @@ footer{
 
 @media screen and (min-width: 624px) {
 	body{
-		flex-wrap:wrap;
+		-webkit-flex-wrap: wrap;
+		-moz-flex-wrap: wrap;
+		-ms-flex-wrap: wrap;
+		-o-flex-wrap: wrap;
+		flex-wrap: wrap;
 		width: 98%;			
 	}
 
@@ -243,13 +282,25 @@ footer{
 
 	.first,
 	.second{
+		-webkit-display:flex;
+		-moz-display:flex;
+		-ms-display:flex;
+		-o-display:flex;
 		display:flex;
+		-webkit-justify-content:space-between;
+		-moz-justify-content:space-between;
+		-ms-justify-content:space-between;
+		-o-justify-content:space-between;
 		justify-content:space-between;
 	}
 	
 	body,
 	.first,
 	.second{
+		-webkit-flex-direction:row;
+		-moz-flex-direction:row;
+		-ms-flex-direction:row;
+		-o-flex-direction:row;
 		flex-direction:row;
 	}
 
@@ -266,12 +317,12 @@ footer{
 	.first{
 		width:70.5%;
 		padding-left:-10%;
-		border-bottom: 2px dashed #0750EF;		
+		border-bottom: 3px dashed #0750EF;		
 	}
 	.ab-graphic{		
 		width: 50%;		
 		padding-left: 0;
-		border-top: 2px dashed #0750EF;						
+		border-top: 3px dashed #0750EF;						
 	}
 	.contact-details{
 		width: 35%;
@@ -285,11 +336,16 @@ footer{
 	}
 	
 	/*second*/
+
+	.second{
+		background-color: #b9dca8;
+	}
 	.personal-attributes,
 	.software-skills{
-		width:32%;
+		width:35%;
 		padding: 2em;
-		border: 3px dashed #0750EF;	
+		border: 3px dashed #0750EF;
+		background-color: #fff;	
 	}
 	.list{
 		font-size: 1.75em;
@@ -320,5 +376,13 @@ footer{
 
 	.list{
 		font-size: 2.4em;
+		line-height: 1.6em;
 	}
+	/*body text*/
+	.summary,
+	.key-projects,
+	.academic-qualifications{
+		font-size: 1.4em;
+	}
+
 }
