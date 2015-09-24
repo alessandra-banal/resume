@@ -249,7 +249,7 @@ footer{
 		-ms-flex-wrap: wrap;
 		-o-flex-wrap: wrap;
 		flex-wrap: wrap;
-		width: 98%;			
+		width: 100%;			
 	}
 
 /*body text*/
@@ -271,8 +271,7 @@ footer{
 	}
 
 /*layout widths*/
-	.summary,
-	.second,
+	.summary,	
 	.key-projects,
 	.academic-qualifications{
 		width:66.5%;
@@ -338,11 +337,14 @@ footer{
 	/*second*/
 
 	.second{
+		width:100%;
+		padding: 3% 15%;
 		background-color: #b9dca8;
 	}
 	.personal-attributes,
 	.software-skills{
-		width:35%;
+		width:32%;
+		max-width: 380px;
 		padding: 2em;
 		border: 3px dashed #0750EF;
 		background-color: #fff;	
