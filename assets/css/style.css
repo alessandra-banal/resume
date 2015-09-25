@@ -396,7 +396,11 @@ footer{
 		}
 
 		body{
-			margin-left: 1em;
+			margin-left: 1.75em;
+		}
+
+		footer{
+			margin-left: -1.75em;
 		}
 	}
 
