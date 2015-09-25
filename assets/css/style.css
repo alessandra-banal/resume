@@ -390,18 +390,21 @@ footer{
 }
 	/*extra small media queries*/
 @media screen and (max-width: 320px){
-
+		header{
+			display: flex;
+			flex-direction:row;
+		}
 		h1{
 			font-size: 24px;
 		}
 
-		body{
-			margin-left: 1.75em;
+		.first,
+		.summary,
+		.key-projects,
+		.academic-qualifications{
+			margin-left: 2em;
 		}
 
-		footer{
-			margin-left: -1.75em;
-		}
 	}
 
 
