@@ -348,7 +348,6 @@ footer{
 			font-size: 24px;
 			line-height: .2em;
 		}
-
 		.first,
 		.contact-details,
 		.summary,
@@ -357,7 +356,7 @@ footer{
 			margin-left: 1.8em;
 		}
 		.contact-details{
-			margin-left:-.4em;
+			margin-left:0em;
 		}
 		.ab-graphic{
 			margin-left: .4em;
