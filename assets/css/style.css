@@ -354,7 +354,13 @@ footer{
 		.summary,
 		.key-projects,
 		.academic-qualifications{
-			margin-left: 2em;
+			margin-left: 1.8em;
+		}
+		.contact-details{
+			margin-left:-2em;
+		}
+		.ab-graphic{
+			margin-left: .5em;
 		}
 	}
 
