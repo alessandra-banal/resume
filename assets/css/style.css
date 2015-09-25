@@ -36,7 +36,7 @@ h2 {
 }
 h1,
 .list {	
-	font-size: 28px;	
+	font-size: 29px;	
 }
 h2{
 	font-size: 22px;
@@ -321,6 +321,9 @@ footer{
 	.contact-details{
 		font-size: 1em;
 	}
+	.list{
+	font-size: 2.2em;
+	}
 }
 @media screen and (min-width: 1090px){
 	h1{
@@ -331,7 +334,6 @@ footer{
 		width: 65.2%;		
 	}
 	.list{
-		font-size: 2.2em;
 		line-height: 1.6em;
 	}
 	/*body text*/
