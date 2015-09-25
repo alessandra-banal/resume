@@ -214,12 +214,6 @@ footer{
 		flex-wrap: wrap;
 		width: 100%;			
 	}
-/*body text
-	.summary,
-	.key-projects,
-	.academic-qualifications{
-		font-size: 1.1em;
-	*/
 /*centering layout*/
 	body,
 	.first,
@@ -261,28 +255,31 @@ footer{
 	}
 /*individual layout specs*/
 	h1{
-		font-size: 3em;
+		font-size: 2em;
+		margin-right: -0.6em;
 	}
 	header{		
-		width: 66%;		
-		margin-left:16%;
+		width: 65.6%;		
+		margin-left:16.3%;
 	}
 	/*first*/
 	.first{
 		width:70.5%;
 		padding-left:-10%;
-		border-bottom: 3px dashed #0750EF;		
+		border-bottom: 3px dashed #0750EF;
+		z-index: 1;			
 	}
 	.ab-graphic{		
 		width: 50%;		
 		padding-left: 0;
-		border-top: 3px dashed #0750EF;						
+		border-top: 3px dashed #0750EF;					
 	}
 	.contact-details{
 		width: 35%;
-		font-size: .8em;
+		font-size: .7em;
 		padding-left: 20px;
-		margin-right: 2.5%;						
+		margin-right: 2.5%;	
+		background-color: #fff;					
 	}
 	.summary{	
 		padding-left: 1em;
@@ -322,12 +319,19 @@ footer{
 	/*extra big media queries*/
 @media screen and (min-width: 1400px){
 	.contact-details{
-		font-size: 1.3em;
+		font-size: 1em;
 	}
 }
 @media screen and (min-width: 1090px){
+	h1{
+		font-size: 2.9em;
+	}
+	header{		
+		margin-left:16.6%;		
+		width: 65.2%;		
+	}
 	.list{
-		font-size: 2.4em;
+		font-size: 2.2em;
 		line-height: 1.6em;
 	}
 	/*body text*/
