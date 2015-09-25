@@ -93,14 +93,14 @@ header{
 ------------------------------------------------------------------------*/
 .contact-details{
 	border: 1.5px solid black;
-	margin-top:10.2%;	
+	margin-top:8.4%;	
 	width:80%;
 	font-family:courier, monospace;
 	font-style: italic;
 	font-size: 1em;
 	line-height: 1.2em;
 	letter-spacing: .3em;
-	padding: 1em;		
+	padding: .8em;		
 }
 .email-link{
 	color: #000;
@@ -111,7 +111,7 @@ header{
 }
 .linebreak1{
 	border: .5px solid #fff;
-	margin-top: 6em;
+	margin-top: 5.5em;
 }
 /* summary
 ------------------------------------------------------------------------*/
@@ -259,8 +259,9 @@ footer{
 		margin-right: -0.6em;
 	}
 	header{		
-		width: 65.6%;		
+		width: 64.6%;		
 		margin-left:16.3%;
+		padding-top: .45em;
 	}
 	/*first*/
 	.first{
@@ -331,7 +332,7 @@ footer{
 	}
 	header{		
 		margin-left:16.6%;		
-		width: 65.2%;		
+		width: 65%;		
 	}
 	.list{
 		line-height: 1.6em;
@@ -341,6 +342,9 @@ footer{
 	.key-projects,
 	.academic-qualifications{
 		font-size: 1.2em;
+	}
+	h2{
+		font-size: 2em;
 	}
 }
 	/*extra small media queries*/
